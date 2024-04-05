@@ -14,7 +14,7 @@ import pyrebase
 import socket
 
 if __name__ == '__main__':
-	ser = serial.Serial('/dev/ttyUSB0',9600, timeout=1)
+	ser = serial.Serial('/dev/ttyUSB0',9600, timeout=1) 
 	# ser.flush()
 	ser.reset_input_buffer()
 	config = {
